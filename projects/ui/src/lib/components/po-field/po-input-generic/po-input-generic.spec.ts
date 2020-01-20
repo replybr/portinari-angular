@@ -514,7 +514,7 @@ describe('PoInputGeneric:', () => {
 
     it('putFocus: should call `focus` if autofocus is true', () => {
       const fakeThis = {
-        autofocus: true,
+        autoFocus: true,
         focus: () => {}
       };
 

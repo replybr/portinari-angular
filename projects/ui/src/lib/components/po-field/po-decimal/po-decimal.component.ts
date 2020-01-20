@@ -454,9 +454,9 @@ export class PoDecimalComponent extends PoInputBaseComponent implements AfterVie
     return (charCode === 44 && this.decimalsLength === 0);
   }
 
-  private putFocus() {
-    if (this.autofocus) {
-      this.inputEl.nativeElement.focus();
+  putFocus() {
+    if (this.autoFocus) {
+      this.focus();
     }
   }
 

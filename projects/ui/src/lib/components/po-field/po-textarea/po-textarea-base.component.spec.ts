@@ -99,12 +99,12 @@ describe('PoTextareaBase:', () => {
 
     it('p-focus: should update property with valid values with valid values.', () => {
       const invalidValues = [undefined, null, 0, false, 'false', 'string'];
-      expectPropertiesValues(component, 'autofocus', invalidValues, false);
+      expectPropertiesValues(component, 'autoFocus', invalidValues, false);
     });
 
     it('p-focus: should update property with valid values with valid values.', () => {
       const validValues = [true, 'true', 1];
-      expectPropertiesValues(component, 'autofocus', validValues, true);
+      expectPropertiesValues(component, 'autoFocus', validValues, true);
     });
 
     it('p-maxlength: should update property p-maxlength with valid values.', () => {

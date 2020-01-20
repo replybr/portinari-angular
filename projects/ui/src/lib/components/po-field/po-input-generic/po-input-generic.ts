@@ -54,7 +54,7 @@ export abstract class PoInputGeneric extends PoInputBaseComponent implements Aft
   }
 
   putFocus() {
-    if (this.autofocus) {
+    if (this.autoFocus) {
       this.focus();
     }
   }
